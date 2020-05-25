@@ -126,7 +126,10 @@ history = model.fit_generator(
     validation_data = validation_generator,
     validation_steps = nb_validation_samples // batch_size)
 
-print("hello...!")
-print("Hay...!")
-print("hay...!")
+acc = model.evaluate(validation_generator, verbose=0)[1]
+acc.save("accuracy.txt")
+
+
+
+
 
