@@ -54,8 +54,8 @@ print(model.summary())
 
 from keras.preprocessing.image import ImageDataGenerator
 
-train_data_dir = 'C:\\Users\\Shubhanesh\\Downloads\\16thMay2020\\Adv CNN\\Transfer Learning _ Fine Tuning\\monkey_breed\\monkey_breed\\train'
-validation_data_dir = 'C:\\Users\\Shubhanesh\\Downloads\\16thMay2020\\Adv CNN\\Transfer Learning _ Fine Tuning\\monkey_breed\\monkey_breed\\validation'
+train_data_dir = '/root/mymlcode/monkey_breed/monkey_breed/train'
+validation_data_dir = '/root/mymlcode/monkey_breed/monkey_breed/validation'
 
 # Let's use some data augmentaiton 
 train_datagen = ImageDataGenerator(
