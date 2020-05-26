@@ -89,7 +89,7 @@ validation_generator = validation_datagen.flow_from_directory(
 from keras.optimizers import RMSprop
 from keras.callbacks import ModelCheckpoint, EarlyStopping
 
-for ep in range(1, 11):
+#for ep in range(1, 11):
         
         
 
